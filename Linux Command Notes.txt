@@ -1,0 +1,111 @@
+Command: ls
+Solution:
+The ls command is used to list files and directories in the current directory. Simply type ls and press Enter to display a list of visible files and folders in the current directory.
+
+Command: ls -a
+Solution:
+The ls -a command lists all files and directories in the current directory, including hidden files (those starting with a dot .). Type ls -a and press Enter to view both visible and hidden items in the directory.
+
+Command: ls -R
+Solution:
+The ls -R command lists all files and directories recursively, including files within all subdirectories of the current directory. Type ls -R and press Enter to view the contents of the main directory along with all subdirectories and their contents.
+
+
+Command: ls -lh
+Solution:
+The ls -lh command lists files and directories in a detailed format, showing file sizes in a human-readable format (e.g., KB, MB). Type ls -lh and press Enter to view file details, including permissions, owner, size, and modification date, with file sizes displayed in an easy-to-read format.
+
+Command: pwd
+Solution:
+The pwd command stands for Print Working Directory. It displays the absolute path of the current directory you are in. Type pwd and press Enter to see the full path of your current directory.
+
+Command: cd
+Solution:
+The cd command stands for Change Directory. It is used to navigate between directories. To use it, type cd followed by the path of the directory you want to navigate to.
+
+Example:
+bash
+Copy code
+cd /home/user/Documents
+
+Command: mkdir
+Solution:
+The mkdir command stands for Make Directory. It is used to create a new directory. To use it, type mkdir followed by the name of the directory you want to create.
+
+Example:
+
+bash
+Copy code
+mkdir new_folder
+
+Command: cp
+Solution:
+The cp command stands for Copy. It is used to copy files or directories from one location to another.
+
+Syntax:
+
+bash
+Copy code
+cp [source] [destination]
+Example:
+
+bash
+Copy code
+cp file1.txt /home/user/Documents/
+This will copy file1.txt from the current directory to the specified destination /home/user/Documents/.
+
+Command: mv
+Solution:
+The mv command stands for Move. It is used to move or rename files and directories.
+
+Move Files or Directories:
+bash
+Copy code
+mv [source] [destination]
+This command moves a file or directory from the source location to the destination.
+
+Example:
+
+bash
+Copy code
+mv file1.txt /home/user/Documents/
+This will move file1.txt to the /home/user/Documents/ directory.
+
+Rename a File or Directory:
+bash
+Copy code
+mv old_name.txt new_name.txt
+
+Command: touch
+Solution:
+The touch command is used to create a new, empty file or update the timestamp of an existing file.
+
+Create a New Empty File:
+bash
+Copy code
+touch filename.txt
+This will create a new empty file named filename.txt in the current directory.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
